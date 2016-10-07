@@ -1,0 +1,9 @@
+- export DISPLAY=:0.0
+	- sets display to local machine
+	- must be entered exacly as is (no space on either side of '=' symbol
+- /sbin/shutdown -r now
+	- initiate computer shutdown sequence
+- ln -s <physical> <virtual>
+	- create a symlink (pointing to <virtual file> will act on <actual file>)
+- add shell-scripts to ~/_repos/bin to enable them as global commands
+	- this works because a symlink has been created between ~/bin and ~/_repos/bin

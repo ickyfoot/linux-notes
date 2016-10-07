@@ -1,0 +1,9 @@
+- see ~/.vimrc for settings
+- vim tutorial: https://danielmiessler.com/study/vim/
+- vim tutor (command): vimtutor
+- Run the following command to send outputs to local machine (e.g., so `google-chrome` command works from command line (ctrl+alt+f1):
+	- export DISPLAY=:0.0
+		- must enter exactly as is (no space on either side of '=' symbol
+- Run the following command to unset DISPLAY:
+	- unset DISPLAY
+- Modify ~/.vimrc to turn vim features on and off
