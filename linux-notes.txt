@@ -7,3 +7,4 @@
 	- create a symlink (pointing to <virtual file> will act on <actual file>)
 - add shell-scripts to ~/_repos/bin to enable them as global commands
 	- this works because a symlink has been created between ~/bin and ~/_repos/bin
+- sudo rm /var/crash/* - gets rid of all "system program problem detected" pop ups
